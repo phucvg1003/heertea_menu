@@ -17,6 +17,10 @@ text-default {
     color: #00C6AF;
 }
 
+.bg-primary {
+    background-color: #00C6AF;
+}
+
 .border-primary {
     border-color: #00C6AF;
 }
