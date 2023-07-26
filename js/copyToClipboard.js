@@ -36,7 +36,7 @@ function copyClipboard() {
     } 
 
     // Copy the array to the clipboard.
-    navigator.clipboard.writeText(values.join(", "+"\n\n"));
+    navigator.clipboard.writeText(values.join("\n\n"));
     selectedDishes.innerHTML = values.join("<br>");
 }
 
